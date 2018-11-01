@@ -3,11 +3,12 @@ Lunch-bot:
 Objective:
 Slack-bot that creates random groups for lunch out of office. 
 
-Resume:
-To use Lunch-bot, he must be added to the general channel of the Slack account. When it is time for having a lunch out of office, the command "Lunch-bot on" is called, and Lunch-bot gives you the specific way you have to respond to join the eating-out-of-office group. Lunch-bot responds to every join solicitude with a confirmation phrase and gives a disclaimer message if you tried to join more than once. 
-When it is time to stop listening, the command "Lunch-bot off" must be invoked to stop Lunch-bot. 
-At this point, he does his magic:
-He shuffles the employees into random groups (<=7 people), and choose a leader for each group. 
+Resume: 
+To use Lunch-bot, it must be added to the general channel of the Slack account. 
+When it is time for having a lunch out of office, the command "Lunch-bot on" is called, and Lunch-bot gives you the specific command you have to respond to join the group. 
+Lunch-bot responds to every join-solicitude with a confirmation, and gives a disclaimer message if you tried to join more than once. 
+When it is time to stop listening, the command "Lunch-bot off" must be invoked, and Lunch-bot does his magic: it shuffles the employees into evenly spplited random groups (<= 7 people), and choose a leader for each group to decide where to eat. 
+
 ----------------------------------------------------------------
 Tech: 
 Developed with Node.js. 
