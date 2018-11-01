@@ -16,13 +16,13 @@ Tech:
 
 Developed with Node.js. 
 It requires npm packages @slack/client, process.env, and lodash library.
-
 Connexion Bot-Slack developed with Botkit tool (index.js).
 Bot logic starts at line 50 (index.js).
 
 Server config: 
 
 Developed in a Node.js local server with localtunnel to allow public access to the server, so it runs with:
+
 $ CLIENT_ID=XXXXXXXXXXXX.YYYYYYYYYYYY CLIENT_SECRET=******************************** PORT=3000 npm start
 
 ----------------------------------------------------------------
